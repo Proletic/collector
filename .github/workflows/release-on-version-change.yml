@@ -1,0 +1,48 @@
+name: Publish Collector Releases
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - appcast.xml
+      - Collector-v*.dmg
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: [self-hosted, linux]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Configure git for release tags
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Publish releases for version changes in this push
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          before="${{ github.event.before }}"
+          after="${{ github.sha }}"
+
+          if [ "$before" = "0000000000000000000000000000000000000000" ]; then
+            range="$after"
+          else
+            range="$before..$after"
+          fi
+
+          python3 scripts/releases/sync_github_releases.py --range "$range"
