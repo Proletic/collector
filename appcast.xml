@@ -3,6 +3,14 @@
     <channel>
         <title>Collector</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Wed, 08 Apr 2026 20:30:26 -0400</pubDate>
+            <sparkle:version>4.2</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector-v0.4.2.dmg" length="3652566" type="application/octet-stream" sparkle:edSignature="ac4sOxSt/GbCqP1+CiC5pNBS7Rg4elVwx93hQpDsQcwB3QnOo6grsD5D/Xho3cqZxh5Lz2oMnRKdYqyOgrYCBA=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Tue, 07 Apr 2026 21:06:39 -0400</pubDate>
             <sparkle:version>4.1</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector-v0.4.0.dmg" length="1928074" type="application/octet-stream" sparkle:edSignature="kyCeRXCtM6DnBk1Q7mcHOOwEV9zobH1GvK+iSRVHo/HYR+5ythgtgK2pkSKdHu9TGDvbRWUmt3kMaBoS2dW8Bw=="/>
-        </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Tue, 10 Feb 2026 22:34:14 -0500</pubDate>
-            <sparkle:version>3.2</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector-v0.3.2.dmg" length="1335080" type="application/octet-stream" sparkle:edSignature="zUaMKm+LLV0GOuEveGUFbzLYBvZ1WI0zyG61pIcxsdRJgUcRx8NDn72SmF1DlRAC07vzGxOp2dQiUs96Dbq8DA=="/>
         </item>
         <item>
             <title>0.2.14</title>
