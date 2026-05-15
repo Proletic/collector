@@ -3,6 +3,17 @@
     <channel>
         <title>Collector</title>
         <item>
+            <title>0.4.9</title>
+            <pubDate>Thu, 14 May 2026 21:38:02 -0700</pubDate>
+            <sparkle:version>4.9</sparkle:version>
+            <sparkle:shortVersionString>0.4.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector-v0.4.9.dmg" length="3141849" type="application/octet-stream" sparkle:edSignature="CeTZ4vg2mjJl0Lqg6TsLPOMnH7TNGIn4uTbyawmyhPBVX54Fz5pYhuUVP0YFevaCFsvwndcfBBNHmHtTP7/9Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector4.9-4.8.delta" sparkle:deltaFrom="4.8" length="647498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H8WXhnwp2ic4ObaqkdseW7qhm8SZze7BOjcyTQxiCQnVUge6i42wQmQhR3zNsUKlLhOJYk9ZKo7bZyeouA1eCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.4.8</title>
             <pubDate>Fri, 08 May 2026 14:55:31 -0700</pubDate>
             <sparkle:version>4.8</sparkle:version>
@@ -17,14 +28,6 @@
             <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector-v0.4.7.dmg" length="3721292" type="application/octet-stream" sparkle:edSignature="TPcKrJX5rmaoebUCt6a4gqrb5UA8hQGtF7VFV67fzEvQAecTU/WthX/jltToerbmfSfD9c9n9wRMhL3Ap9QaDw=="/>
-        </item>
-        <item>
-            <title>0.4.6</title>
-            <pubDate>Fri, 01 May 2026 14:37:26 -0700</pubDate>
-            <sparkle:version>4.6</sparkle:version>
-            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/jeffrey-zang/collector/main/Collector-v0.4.6.dmg" length="3704011" type="application/octet-stream" sparkle:edSignature="Nx12zL6uZKn9lvgCIlKkz5bq+P1mCa7lI3LFi/UZeNJb/KmYBPvNmpY5DuRjKMv3Is/2AYQxn1p0un7MMwYWAw=="/>
         </item>
         <item>
             <title>0.2.14</title>
